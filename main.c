@@ -15,9 +15,9 @@ float **createMatrix(int columnNb,int rowNb){
 }
 
 void initMatrixValue(int columnNb , int rowNb,float **m){
-    for (int i = 0; i < columnNb; ++i) {
-        for (int j = 0; j < rowNb; ++j) {
-            printf(" [%d][%d] = ",i,j);
+    for (int i = 0; i < columnNb; ++i){
+        for (int j = 0; j < rowNb; ++j){
+            printf("[%d][%d] = ",i,j);
             scanf("%f",&m[i][j]);
         }
         printf("\n");
@@ -36,7 +36,7 @@ float ** add (int columnNb , int rowNb,float **first , float **second ){
 void show(float **m,int columnNb , int rowNb){
     for (int i = 0; i < columnNb; ++i) {
         for (int j = 0; j < rowNb; ++j) {
-            printf(" R[%d][%d] = %f",i,j,m[i][j]);
+            printf("%1f \t",m[i][j]);
         }
         printf("\n");
     }
@@ -48,7 +48,6 @@ int main(){
     printf( "  it is a square matrix ? ( 0 - 1 ) :   \n" );
     scanf("%d",&isSquareMatrix);
     if(isSquareMatrix==1){
-
         printf("\n\n\n > Please enter the size (column*row) : ");
         scanf("%d",&size);
         float **m1 = createMatrix(size,size);
