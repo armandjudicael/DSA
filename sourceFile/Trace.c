@@ -28,7 +28,7 @@ void MatrixTrace(){
 float trace(int size,float **m){
     float trace = 0;
     for (int i = 0; i < size; ++i){
-          trace =m[i][i];
+          trace +=m[i][i];
     }
     return trace;
 }
