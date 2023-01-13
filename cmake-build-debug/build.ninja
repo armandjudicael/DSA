@@ -85,6 +85,12 @@ build CMakeFiles/DSA.dir/sourceFile/MatrixMultiplication.c.o: C_COMPILER__DSA_De
   OBJECT_DIR = CMakeFiles/DSA.dir
   OBJECT_FILE_DIR = CMakeFiles/DSA.dir/sourceFile
 
+build CMakeFiles/DSA.dir/sourceFile/Trace.c.o: C_COMPILER__DSA_Debug /home/kael/CLionProjects/DSA/sourceFile/Trace.c || cmake_object_order_depends_target_DSA
+  DEP_FILE = CMakeFiles/DSA.dir/sourceFile/Trace.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/DSA.dir
+  OBJECT_FILE_DIR = CMakeFiles/DSA.dir/sourceFile
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DSA
@@ -93,7 +99,7 @@ build CMakeFiles/DSA.dir/sourceFile/MatrixMultiplication.c.o: C_COMPILER__DSA_De
 #############################################
 # Link the executable DSA
 
-build DSA: C_EXECUTABLE_LINKER__DSA_Debug CMakeFiles/DSA.dir/main.c.o CMakeFiles/DSA.dir/sourceFile/substraction.c.o CMakeFiles/DSA.dir/sourceFile/BasicMatrixOperation.c.o CMakeFiles/DSA.dir/sourceFile/MatrixScalarMultiplication.c.o CMakeFiles/DSA.dir/sourceFile/MatrixAddition.c.o CMakeFiles/DSA.dir/sourceFile/MatrixMultiplication.c.o
+build DSA: C_EXECUTABLE_LINKER__DSA_Debug CMakeFiles/DSA.dir/main.c.o CMakeFiles/DSA.dir/sourceFile/substraction.c.o CMakeFiles/DSA.dir/sourceFile/BasicMatrixOperation.c.o CMakeFiles/DSA.dir/sourceFile/MatrixScalarMultiplication.c.o CMakeFiles/DSA.dir/sourceFile/MatrixAddition.c.o CMakeFiles/DSA.dir/sourceFile/MatrixMultiplication.c.o CMakeFiles/DSA.dir/sourceFile/Trace.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/DSA.dir
   POST_BUILD = :

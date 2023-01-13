@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "../header/BasicMatrixOperation.h"
 float **scalarMultiplication(float scalar , int columnNb , int rowNb , float **m){
     for (int i = 0; i < columnNb; ++i) {

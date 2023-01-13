@@ -5,6 +5,8 @@
 #include "header/MatrixScalarMultiplication.h"
 #include "header/MatrixMultiplication.h"
 #include "header/MatrixAddition.h"
+#include "header/MatrixAddition.h"
+#include "header/Trace.h"
 
 typedef struct matrix {
     int size;
@@ -39,6 +41,10 @@ void initMenu(){
             break;}
         case 3 : {
             matrixMultiplication();
+            break;
+        }
+        case 4 : {
+            MatrixTrace();
             break;
         }
         case 9 : {
